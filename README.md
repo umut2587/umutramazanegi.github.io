@@ -1,1 +1,0 @@
-# umutramazanegi.github.io
