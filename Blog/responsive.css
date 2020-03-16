@@ -1,0 +1,136 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    div.left-side {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        top: -75px;
+        overflow: visible;
+    }
+
+    div.me {
+        float: left;
+        left: 20px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    div.me {
+        position: absolute;
+    }
+
+    div.header {
+        position: static;
+    }
+
+    div.pic {
+        width: 100px;
+    }
+
+    p#hero {
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    div.navbar {
+        padding-top: 50px;
+    }
+
+    div.navbar p {
+        display: inline;
+        padding-left: 30px;
+        left: 100px
+    }
+
+    div.navbar p a {
+        font-size: 65%;
+    }
+
+    div.links {
+        position: absolute;
+        top: -18px;
+        left: 150px;
+    }
+
+    div.links i {
+        padding-bottom: 10px;
+    }
+
+    div.right-side {
+        margin-left: 20px;
+        min-width: 300px;
+        margin-right: 20px;
+    }
+
+    div.form {
+        margin: 100px auto;
+        width: 500px;
+    }
+
+    div.right-side-form {
+        margin: 0;
+    }
+
+    div#right-side-header-form {
+        margin-left: 20px;
+    }
+
+    div.hakkimda {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    html, body {
+        height: auto;
+        width: 100%;
+    }
+
+    div.left-side {
+        width: 100%;
+        height: auto;
+        overflow: visible;
+        position: relative;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    div.header {
+        top: auto;
+       
+    }
+
+    div.right-side {
+        margin-left: 20px;
+        min-width: 300px;
+        margin-right: 20px;
+    }
+
+    div.right-side p {
+        font-size: 15px;
+    }
+
+    div.form {
+        width: 100%;
+        margin: 75px auto;
+        padding: 50px 30px;
+    }
+
+    div.right-side-form {
+        margin: 0;
+        min-width: unset;
+        padding: 0 10px;
+    }
+
+    div#right-side-header-form {
+        margin-left: 20px;
+    }
+
+    div.hakkimda {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f0f0f2;
+    height: 100%;
+}
+
+div.left-side {
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    box-shadow: 2px 0 10px -5px #777777;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+div.header {
+    text-align: center;
+    position: relative;
+    top: 175px;
+}
+
+div.me {
+    display: inline-block;
+}
+
+#hero {
+    font-size: 25px;
+    font-weight: 700;
+    transition: color 500ms;
+    -webkit-transition: color 500ms;
+    -moz-transition: color 500ms;
+    -o-transition: color 500ms;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #292f33;
+}
+
+#hero:hover {
+    color: #4267B2;
+}
+
+div.pic {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    transition: box-shadow 400ms;
+    -webkit-transition: box-shadow 400ms;
+    -moz-transition: box-shadow 400ms;
+    -o-transition: box-shadow 400ms;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+div.pic:hover {
+    box-shadow: inset 0px 0 150px 10px rgba(255, 255, 255, 0.3);
+}
+
+div.links {
+    margin-top: 35px;
+}
+
+.in-pic {
+    position: relative;
+    border-radius: 50%;
+    z-index: -1;
+    width: 100%;
+}
+
+div.navbar {
+    margin-top: 75px;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.li1 {
+    position: relative;
+    margin-bottom: 50px;
+    font-size: 32px;
+    color: #1c5881;
+}
+
+a[target="_blank"] {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.li {
+    background-color: #2383cc;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: background-color 500ms;
+    -webkit-transition: background-color 500ms;
+    -o-transition: background-color 500ms;
+    -moz-transition: background-color 500ms;
+}
+
+.li:hover {
+    background-color: #1a6aa7;
+}
+
+.li2:active {
+    transition: background-color 100ms;
+    -webkit-transition: background-color 100ms;
+    -o-transition: background-color 100ms;
+    -moz-transition: background-color 100ms;
+    background-color: rgb(51, 182, 62);
+}
+
+i {
+    font-size: 32px;
+    transition: color 300ms;
+    -webkit-transition: color 300ms;
+    -moz-transition: color 300ms;
+    -o-transition: color 300ms;
+}
+
+i#in-facebook:hover {
+    color: #4267B2;
+}
+
+i#in-instagram:hover {
+    color: #bc2a8d;
+}
+
+i#in-reddit:hover {
+    color: #ff4500;
+}
+
+div.right-side-form {
+    position: relative;
+    margin-right: 100px;
+    margin-left: 400px;
+    background-color: #f0f0f2;
+    min-width: 700px;
+
+}
+
+div#right-side-header-form {
+    margin-top: 50px;
+}
+
+h1.right-side-header {
+    font-size: 40px;
+    color: #292f33;
+}
+
+h1, h2 {
+    color: #292f33;
+}
+
+div.form {
+    width: 700px;
+    margin: 200px 350px;
+    background-color: #fff;
+    padding: 75px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+div.form > h2 {
+    margin-bottom: 20px;
+}
+
+div.form:hover {
+    box-shadow: 0 0 3px rgba(74, 113, 197, 1)
+}
+
+input[type="text"], input[type="email"], textarea[name="textarea"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+textarea[name="textarea"] {
+    max-width: 100%;
+    min-height: 45px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea[name="textarea"]:focus {
+    outline: 0;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: rgb(40, 120, 212);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 500ms;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(36, 102, 177)
+}
+
